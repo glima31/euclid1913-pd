@@ -1,7 +1,7 @@
 #N canvas 827 239 734 565 12;
 #X obj 1327 165 pt.clock-distr;
-#X obj 605 478 pt.euclid-seq;
-#X obj 1201 487 pt.euclid-seq;
+#X obj 605 464 pt.euclid-seq;
+#X obj 1201 464 pt.euclid-seq;
 #X obj 605 623 pt.sampler~;
 #X obj 1201 623 pt.sampler~;
 #X obj 1420 1097 dac~;
@@ -9,12 +9,12 @@
 #X obj 1142 159 s \$0-reset;
 #X obj 605 398 r \$0-reset;
 #X obj 1201 398 r \$0-reset;
-#X obj 1792 487 pt.euclid-seq;
+#X obj 1792 464 pt.euclid-seq;
 #X obj 1792 623 pt.sampler~;
 #X obj 1792 398 r \$0-reset;
-#X connect 0 0 1 0 48.................KA...vz++++R....L8+++uD...vK8+++KA...7R++++b....;
-#X connect 0 1 2 0 32.................mA...nx++++Y....p7+++yG....;
-#X connect 0 2 10 0 32.................mA...7Q...vY....eD...vG....;
+#X connect 0 0 1 0 48.................CA...vz++++P....L8+++OD...vK8+++CA...7R+++eY....;
+#X connect 0 1 2 0 32.................PA...nx+++OT....p7+++WF....;
+#X connect 0 2 10 0 32.................OA...7Q...vS....eD...TF....;
 #X connect 1 0 3 0;
 #X connect 2 0 4 0;
 #X connect 3 0 5 0 32.................Z....7x...fF....uL...3D....;
@@ -23,7 +23,7 @@
 #X connect 4 1 5 1 32.................m....Tt++++I....k6+++6D....;
 #X connect 6 0 0 0;
 #X connect 6 0 7 0 32.................X....fz+++OF....H8+++WC....;
-#X connect 8 0 1 0 32.................q.........vJ.........zC....;
+#X connect 8 0 1 0 32.................q.........vJ.........7B....;
 #X connect 9 0 2 0;
 #X connect 10 0 11 0;
 #X connect 11 0 5 0 32.................Z....zn+++uF....M5+++6D....;
