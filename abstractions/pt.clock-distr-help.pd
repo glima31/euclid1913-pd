@@ -5,8 +5,9 @@
 #X obj 379 366 bng 25 250 50 0 empty empty empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1;
 #X obj 468 366 bng 25 250 50 0 empty empty empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1;
 #X obj 201 43 tgl 25 0 empty empty empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1 0 1;
-#X obj 467 43 knob 50 30 240 0 120 empty empty #191919 #696969 #E1E1E1 1 0 211 1 1 270 0 0 60 empty empty 0 12 6 -15 0 1 0 0;
+#X obj 467 43 knob 50 0 300 0 120 empty empty #191919 #696969 #E1E1E1 1 0 211 1 1 270 0 0 60 empty empty 0 12 6 -15 0 1 0 0;
 #X floatatom 549 117 3 0 0 0 - - - 24;
+#X obj 715 260 pt.clock-distr;
 #X connect 0 0 1 0 32.................o.........PJ.........LB....;
 #X connect 0 1 2 0 32.................o.........PJ.........LB....;
 #X connect 0 2 3 0 32.................o.........PJ.........LB....;
