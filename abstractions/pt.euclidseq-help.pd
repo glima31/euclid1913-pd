@@ -1,6 +1,5 @@
 #N canvas 827 239 734 565 12;
-#X obj 209 188 pt.euclid-seq;
-#X floatatom 443 344 5 0 0 0 - - - 0;
+#X floatatom 446 351 5 0 0 0 - - - 0;
 #X obj 209 344 bng 25 250 50 0 empty empty empty 0 -10 0 10 #333333 #eeeeee #111111;
 #X obj 326 344 bng 25 250 50 0 empty empty empty 0 -10 0 10 #333333 #eeeeee #111111;
 #X text 264 25 Clock Rate (BPM);
@@ -10,11 +9,12 @@
 #X obj 294 54 knob 50 30 240 0 120 empty empty #333333 #696969 #EEEEEE 1 0 211 1 1 270 0 0 30 empty empty 0 12 6 -15 0 1 0 0;
 #X obj 209 135 clock;
 #X msg 90 94 reset;
-#X connect 0 0 2 0;
-#X connect 0 1 3 0;
-#X connect 0 2 1 0;
-#X connect 5 0 9 0;
-#X connect 8 0 7 0 32.................K....XA...vB....V....XA....;
-#X connect 8 0 9 1 32.................R....36+++uD....99++++A....;
-#X connect 9 0 0 0;
-#X connect 10 0 0 0 32.................4....bG...PN....2A...rD....;
+#X obj 209 188 pt.euclidseq;
+#X connect 4 0 8 0;
+#X connect 7 0 6 0 32.................K....XA...vB....V....XA....;
+#X connect 7 0 8 1 32.................R....36+++uD....99++++A....;
+#X connect 8 0 10 0;
+#X connect 9 0 10 0 32.................4....bG...PN....2A...rD....;
+#X connect 10 0 1 0;
+#X connect 10 1 2 0;
+#X connect 10 2 0 0;
