@@ -2,8 +2,8 @@
 #X declare -path utils;
 #X obj 60 875 outlet;
 #X obj 554 885 outlet;
-#X obj 492 13 cnv 15 396 307 empty empty empty 15 12 0 14 #d0d3cd #111111 0;
-#X obj 45 88 inlet;
+#X obj 492 13 cnv 15 519 303 empty empty empty 15 12 0 14 #d0d3cd #111111 0;
+#X obj 188 17 inlet;
 #X obj 674 875 outlet;
 #X text 71 897 hit;
 #X text 561 907 rest;
@@ -11,7 +11,7 @@
 #X obj 138 235 r \$0-steps;
 #X obj 226 235 r \$0-hits;
 #X obj 315 235 r \$0-shift;
-#X text 45 33 bng: advance to next step \; [msg reset (: reset step number to 0;
+#X text 260 108 bng: advance to next step \; [msg reset (: reset step number to 0;
 #X obj 330 432 s \$0-hits-computed;
 #X obj 479 432 s \$0-shift-computed;
 #X obj 500 30 cnv 15 378 280 empty empty empty 20 12 0 14 #191919 #191919 0;
@@ -87,7 +87,18 @@
 #X obj 1224 587 s \$0-accent-shift-computed;
 #X obj 138 312 pt.euclidseq-params-scaler, f 28;
 #X obj 998 499 pt.euclidseq-params-scaler, f 35;
-#X connect 3 0 68 0;
+#X obj 892 30 cnv 15 84 279 empty empty empty 20 12 0 14 #191919 #191919 0;
+#X obj 895 33 cnv 15 78 273 empty empty empty 20 12 0 14 #d0d3cd #111111 0;
+#X obj 906 79 knob 48 0 1 0 0.1 \$0-clock-rate empty #333333 #696969 #eeeeee 0 0 0 0 0 270 0 0 0 empty empty 0 12 6 -15 0 1 0 0;
+#X obj 914 26 cnv 15 40 24 empty empty CLOCK 1 12 0 14 #d0d3cd #111111 0;
+#X obj 921 137 bng 18 250 50 0 empty \$0-tick-bng empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1;
+#X listbox 904 57 7 0 0 0 - \$0-current-clock-rate - 12;
+#X obj 901 216 cnv 15 66 17 empty empty Start/Stop 0 12 0 14 #d0d3cd #111111 0;
+#X obj 918 187 tgl 31 0 \$0-start \$0-start-set empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1 0 1;
+#X obj 45 79 clock \$1 \$2;
+#X obj 188 57 s \$0-start-set;
+#X obj 45 34 r \$0-start;
+#X connect 3 0 96 0 32.................V.........fE.........TA....;
 #X connect 8 0 85 0;
 #X connect 8 0 66 1 32.................k....L7+++eI....C++++yK....;
 #X connect 9 0 85 1;
@@ -136,4 +147,6 @@
 #X connect 86 0 67 2 32.................z....fU+++OM....X0+++KF....;
 #X connect 86 1 67 3 32.................g....LI+++eH....Sx+++KF....;
 #X connect 86 1 84 0;
-#X coords 0 0 1 1 398 308 1 492 12;
+#X connect 95 0 68 0;
+#X connect 97 0 95 0;
+#X coords 0 0 1 1 518 306 1 492 12;
