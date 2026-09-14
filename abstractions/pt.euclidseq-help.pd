@@ -18,6 +18,7 @@
 #X text 489 643 rest;
 #X text 561 643 step number;
 #X connect 1 0 5 0;
+#X connect 1 0 6 0 32.................K....n3++++B....J9+++aA....;
 #X connect 4 0 3 0 32.................K....XA...vB....V....XA....;
 #X connect 4 0 5 1 32.................R....36+++uD....99++++A....;
 #X connect 5 0 7 0;
