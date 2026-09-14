@@ -1,0 +1,10 @@
+#N canvas 827 239 734 565 12;
+#X obj 123 111 pt.clockmaster;
+#X obj 123 267 bng 25 250 50 0 empty empty empty 0 -10 0 10 #333333 #eeeeee #111111;
+#X symbolatom 241 267 14 0 0 0 - - - 16;
+#X obj 123 51 tgl 25 0 empty empty empty 0 -10 0 10 #333333 #eeeeee #111111 0 1;
+#X obj 182 267 tgl 25 0 empty empty empty 0 -10 0 10 #333333 #eeeeee #111111 0 1;
+#X connect 0 0 1 0;
+#X connect 0 1 4 0;
+#X connect 0 2 2 0;
+#X connect 3 0 0 0;
