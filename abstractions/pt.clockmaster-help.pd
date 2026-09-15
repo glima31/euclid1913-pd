@@ -4,7 +4,7 @@
 #X obj 123 110 pt.clockmaster masterclock;
 #X obj 123 401 clock -s masterclock;
 #X obj 123 453 bng 25 250 50 0 empty empty empty 0 -10 0 10 #333333 #eeeeee #111111;
-#X obj 285 273 s \$0-start;
+#X obj 346 273 s \$0-start;
 #X obj 123 356 r \$0-start;
 #X obj 297 401 clock -s masterclock;
 #X obj 297 453 bng 25 250 50 0 empty empty empty 0 -10 0 10 #333333 #eeeeee #111111;
