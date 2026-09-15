@@ -1,6 +1,4 @@
 #N canvas 827 239 734 565 12;
-#X declare -path abstractions;
-#X declare -path abstractions/sequencer;
 #X obj 211 283 clock \$0-master_clock;
 #X msg 425 246 \$1 BPM;
 #X listbox 425 283 7 0 0 0 - - - 36;
@@ -9,11 +7,9 @@
 #X obj 82 162 tgl 50 0 empty empty empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1 0 1;
 #X obj 82 231 t f f;
 #X obj 893 785 dac~;
-#X obj 82 58 declare -path abstractions;
-#X obj 82 102 declare -path abstractions/sequencer;
-#X obj 82 397 sequencer \$0-master_clock;
 #X obj 768 376;
-#X obj 693 352 sampler~;
+#X obj 693 352 core/sampler~;
+#X obj 82 397 core/sequencer \$0-master_clock;
 #X connect 0 0 3 0;
 #X connect 1 0 2 0;
 #X connect 4 0 1 0 32.................Q....3E...PD....dA...HB....;
@@ -21,6 +17,6 @@
 #X connect 5 0 6 0;
 #X connect 6 0 10 0;
 #X connect 6 1 0 0 32.................Q....XG...PD....1A...DB....;
-#X connect 10 1 12 0 48.................k....ba...PI....2F....n+++e3A....5+++Gd....o9+++;
-#X connect 12 0 7 0 32.................T....fL....E....HC...fB....;
-#X connect 12 1 7 1 32.................T....ny+++OE....57+++iB....;
+#X connect 9 0 7 0 32.................T....fL....E....HC...fB....;
+#X connect 9 1 7 1 32.................T....ny+++OE....57+++iB....;
+#X connect 10 1 9 0 48.................k....ba...PI....2F....n+++e3A....5+++Gd....o9+++;
