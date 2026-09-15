@@ -1,5 +1,4 @@
 #N canvas 827 239 734 565 12;
-#X obj 201 133 pt.clock-distr;
 #X obj 201 366 bng 25 250 50 0 empty empty empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1;
 #X obj 290 366 bng 25 250 50 0 empty empty empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1;
 #X obj 379 366 bng 25 250 50 0 empty empty empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1;
@@ -10,10 +9,11 @@
 #X text 153 18 start/stop the clock;
 #X text 526 62 NOTE: this knob's range (0 - 300) is wider than the internal Rate knob's (60 - 240). When we send values outside the internal range \, the resulting clock rate should not go past the limits, f 23;
 #X text 423 18 set master rate in BPM;
-#X connect 0 0 1 0 32.................o.........PJ.........LB....;
-#X connect 0 1 2 0 32.................o.........PJ.........LB....;
-#X connect 0 2 3 0 32.................o.........PJ.........LB....;
-#X connect 0 3 4 0 32.................o.........PJ.........LB....;
-#X connect 5 0 0 0;
-#X connect 6 0 0 1;
-#X connect 6 0 7 0 48.................U....j9+++eE....o++++W8+++eu++++U++++26++++3++++;
+#X obj 201 133 pt.clockdistr;
+#X connect 4 0 10 0;
+#X connect 5 0 6 0 48.................U....j9+++eE....o++++W8+++eu++++U++++26++++3++++;
+#X connect 5 0 10 1;
+#X connect 10 0 0 0 32.................o.........PJ.........LB....;
+#X connect 10 1 1 0 32.................o.........PJ.........LB....;
+#X connect 10 2 2 0 32.................o.........PJ.........LB....;
+#X connect 10 3 3 0 32.................o.........PJ.........LB....;
