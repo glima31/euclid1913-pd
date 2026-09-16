@@ -1,0 +1,10 @@
+#N canvas 827 239 734 565 12;
+#X obj 1 0 cnv 15 249 253 empty empty empty 20 12 0 14 #191919 #191919 0;
+#X obj 4 4 cnv 15 243 246 empty empty MAIN\ CLOCK 27 18 0 30 #d0d3cd #111111 0;
+#X obj 28 120 knob 79 -15 15 0 0 \$0-clock-mult empty #333333 #696969 #eeeeee 0 0 31 1 0 270 0 0 0 empty empty 0 12 6 -15 0 1 0 0;
+#X listbox 28 51 4 0 0 0 - \$0-clock-mult-display - 36;
+#X obj 146 206 cnv 15 54 30 empty empty RUN 0 12 0 25 #d0d3cd #111111 0;
+#X obj 142 141 tgl 58 0 \$0-start \$0-start-set empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1 0 1;
+#X obj 146 51 hradio 44 1 0 2 empty empty MASTER\ |\ SLAVE -12 59 0 14 #191919 #e1e1e1 #111111 0;
+#X obj 36 206 cnv 15 63 35 empty empty RATE 2 12 0 25 #d0d3cd #111111 0;
+#X coords 0 0 1 1 251 255 1 0 -1;
