@@ -100,7 +100,7 @@
 #X obj 260 616 euclid_stateful;
 #X obj 45 442 euclid_stateful, f 16;
 #X obj 45 137 internal_clock \$1;
-#X obj 383 23 declare -path sequencer;
+#X obj 76 7 declare -path sequencer;
 #X connect 3 0 89 0 32.................V.........fE.........TA....;
 #X connect 8 0 96 0;
 #X connect 8 0 98 1 32.................k....L7+++eI....C++++yK....;

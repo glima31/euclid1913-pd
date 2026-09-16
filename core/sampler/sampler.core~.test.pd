@@ -36,7 +36,7 @@
 #X text 240 235 with panning. left \, centered \, right (respectively):, f 24;
 #X text 432 112 fixed values with no panning:;
 #X text 809 430 C: pan left \; C#: center (ignore spread) \; D: pan right;
-#X obj 446 534 ../core/sampler~;
+#X obj 446 534 sampler.core~;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;
