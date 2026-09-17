@@ -1,8 +1,0 @@
-#N canvas 827 239 734 565 12;
-#X obj -4 -5 cnv 15 229 253 empty empty empty 20 12 0 14 #191919 #191919 0;
-#X obj -1 -1 cnv 15 222 245 empty empty REVERB 17 18 0 30 #d0d3cd #111111 0;
-#X obj 20 37 knob 79 -15 15 0 0 \$0-clock-mult empty #333333 #696969 #eeeeee 0 0 31 1 0 270 0 0 0 empty empty 0 12 6 -15 0 1 0 0;
-#X obj 20 140 knob 79 -15 15 0 0 \$0-clock-mult empty #333333 #696969 #eeeeee 0 0 31 1 0 270 0 0 0 empty empty 0 12 6 -15 0 1 0 0;
-#X obj 120 37 knob 79 -15 15 0 0 \$0-clock-mult empty #333333 #696969 #eeeeee 0 0 31 1 0 270 0 0 0 empty empty 0 12 6 -15 0 1 0 0;
-#X obj 120 140 knob 79 -15 15 0 0 \$0-clock-mult empty #333333 #696969 #eeeeee 0 0 31 1 0 270 0 0 0 empty empty 0 12 6 -15 0 1 0 0;
-#X coords 0 0 1 1 230 254 1 -5 -6;
