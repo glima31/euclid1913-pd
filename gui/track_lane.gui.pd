@@ -69,4 +69,6 @@
 #X obj 29 613 knob 50 0 20 0 0 \$0-attack-depth empty #333333 #696969 #EEEEEE 0 0 0 0 0 270 0 0 0 empty 0 6 -15 0 1 0 0 0 0;
 #X obj 37 660 cnv 15 34 17 empty empty Attack 0 12 0 14 #d0d3cd #111111 0;
 #X obj 126 873 cnv 15 82 24 empty empty ACCENTS 1 12 0 20 #d0d3cd #111111 0;
+#X obj 556 363 outlet~;
+#X obj 636 363 outlet~;
 #X coords 0 0 1 1 235 1105 1 -1 -1;
