@@ -217,7 +217,6 @@
 #X obj 1123 173 s \$0-filename-display;
 #X obj 177 45 cnv 15 44 19 empty empty LOAD 0 12 0 14 #d0d3cd #111111 0;
 #X obj 177 11 bng 32 250 50 0 \$0-load-sample empty empty 0 -10 0 10 #333333 #eeeeee #111111;
-#X obj -183 163 cnv 15 66 17 empty empty TRIGGER 0 12 0 14 #d0d3cd #111111 0;
 #X obj 76 11 bng 74 250 50 0 \$0-trigger-playback empty empty 0 -10 0 10 #333333 #eeeeee #111111;
 #X obj 465 137 r \$0-trigger-playback;
 #X connect 21 0 23 0;
@@ -305,5 +304,5 @@
 #X connect 107 0 73 0 32.................SA...HG...vT....xA...HR....;
 #X connect 107 0 71 1 32.................TA...Du+++OU....w6+++eH....;
 #X connect 107 0 69 1 32.................iA...vL...vX....LC...DH....;
-#X connect 115 0 96 0 32.................U....vz+++eE....L8+++qB....;
+#X connect 114 0 96 0 32.................U....vz+++eE....L8+++qB....;
 #X coords 0 0 1 1 228 627 1 -2 0;
