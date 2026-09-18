@@ -1,4 +1,5 @@
 #N canvas 827 239 1397 980 12;
+#X declare -path ../src/sampler;
 #X obj 646 989 dac~;
 #X obj 70 214 metro 400;
 #X obj 70 256 random 80;
@@ -37,6 +38,7 @@
 #X text 432 112 fixed values with no panning:;
 #X text 809 430 C: pan left \; C#: center (ignore spread) \; D: pan right;
 #X obj 446 534 sampler.core~;
+#X obj 19 26 declare -path ../src/sampler;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;
