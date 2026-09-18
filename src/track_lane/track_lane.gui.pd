@@ -21,6 +21,7 @@
 #X text 435 1101 bng: hit;
 #X text 506 1101 float: velocity (0.0-1.0);
 #X text 660 1101 bng: accent;
+#X obj 3 1063 cnv 15 227 37 empty empty empty 104 16 0 30 #696969 #e1e1e1 0;
 #X connect 5 0 2 0 32.................I....vP...PB....LD...Lb....;
 #X connect 5 1 3 0 32.................S....DI...vD....QB...3e....;
 #X connect 7 0 10 0 32.................I....ba...PB....2F...DA....;
