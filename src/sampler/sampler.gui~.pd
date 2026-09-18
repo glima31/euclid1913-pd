@@ -2,8 +2,8 @@
 #X obj -1 0 cnv 15 227 626 empty empty empty 20 12 0 14 #d0d3cd #111111 0;
 #X obj 17 132 cnv 15 192 168 empty empty empty 20 12 0 14 #3ac668 #111111 0;
 #N canvas 0 0 450 250 (subpatch) 0;
-#X array \$0-array 6507 float 2;
-#X coords 0 1 6507 -1 193 168 1;
+#X array \$0-array 7263 float 2;
+#X coords 0 1 7263 -1 193 168 1;
 #X restore 17 132 graph;
 #X obj 20 308 hsl 187 22 0 1 0 0 \$0-start-offset \$0-playhead empty -2 -8 0 10 #333333 #eeeeee #111111 0 1;
 #X symbolatom 17 104 19 0 0 0 - \$0-filename-display - 16;
@@ -215,10 +215,11 @@
 #X text 2159 625 ^^^ envelope_len = effective_audio_duration x (1 - \$0-length-depth x (1 - velocity)), f 38;
 #X text 1904 896 <--- AHD ENVELOPE \; \; \$1 attack \$2 decay_len \$3 decay_start \; \; velocity: attack is 0ms at velocity=1 and reaches \$0-attack-depth at mininum velocity. envelope length equals full playback duration at velocity=1 and shrinks by up to \$0-length-depth at minimum \, so soft hits stop ringing before playback does. if both \$0-attack-depth and \$0-length-depth are set to 0 \, velocity does nothing to the envelope \; \; \$0-hold: splits the time after the attack stage. at \$0-hold=0 \, this is just an AD envelope., f 44;
 #X obj 1123 173 s \$0-filename-display;
-#X obj 177 45 cnv 15 44 19 empty empty LOAD 0 12 0 14 #d0d3cd #111111 0;
-#X obj 177 11 bng 32 250 50 0 \$0-load-sample empty empty 0 -10 0 10 #333333 #eeeeee #111111;
-#X obj 76 11 bng 74 250 50 0 \$0-trigger-playback empty empty 0 -10 0 10 #333333 #eeeeee #111111;
+#X obj 158 70 cnv 15 44 19 empty empty LOAD 0 12 0 14 #d0d3cd #111111 0;
+#X obj 151 11 bng 58 250 50 0 \$0-load-sample empty empty 0 -10 0 10 #333333 #eeeeee #111111;
+#X obj 17 11 bng 58 250 50 0 \$0-trigger-playback empty empty 0 -10 0 10 #333333 #eeeeee #111111;
 #X obj 465 137 r \$0-trigger-playback;
+#X obj 17 70 cnv 15 37 19 empty empty TRIGGER 0 12 0 14 #d0d3cd #111111 0;
 #X connect 21 0 23 0;
 #X connect 22 0 27 0;
 #X connect 23 0 100 0 32.................5++++C....f9++++.....HD....;
@@ -305,4 +306,4 @@
 #X connect 107 0 71 1 32.................TA...Du+++OU....w6+++eH....;
 #X connect 107 0 69 1 32.................iA...vL...vX....LC...DH....;
 #X connect 114 0 96 0 32.................U....vz+++eE....L8+++qB....;
-#X coords 0 0 1 1 227 626 1 -2 0;
+#X coords 0 0 1 1 228 627 1 -2 0;
