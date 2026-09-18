@@ -8,11 +8,11 @@
 #X obj 271 21 declare -path ../sampler;
 #X obj 3 4 sampler.gui~;
 #X obj 271 57 declare -path ../sequencer;
-#X obj 3 652 sequencer.gui;
+#X obj 3 630 sequencer.gui;
 #X obj 271 163 inlet;
 #X text 271 123 bng: clock tick at 22ppqn \; reset: reset the sequencer;
-#X connect 5 0 2 0 32.................G....vP...vA....LD...ze....;
-#X connect 5 1 3 0 32.................G....rP...vA....KD...TA....;
-#X connect 7 1 5 0 48.................Y....PL...PF....DC...H69+++y++++xt++++7+++O46+++;
-#X connect 8 0 7 0 32.................PG...Tu+++OzA...06+++ac....;
+#X connect 5 0 2 0 32.................I....vP...PB....LD...3e....;
+#X connect 5 1 3 0 32.................S....DI...vD....QB...3e....;
+#X connect 7 1 5 0 48.................u....PL...vK....DC...f79+++y++++Hu++++7+++e26+++;
+#X connect 8 0 7 0 32.................1F...Tu+++usA...06+++Cb....;
 #X coords 0 0 1 1 235 1105 1 -1 -1;

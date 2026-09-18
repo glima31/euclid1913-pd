@@ -1,9 +1,9 @@
 #N canvas 827 239 734 565 12;
 #X obj -1 0 cnv 15 227 626 empty empty empty 20 12 0 14 #d0d3cd #111111 0;
-#X obj 17 132 cnv 15 192 168 empty empty empty 20 12 0 14 #42a3c6 #111111 0;
+#X obj 17 132 cnv 15 192 168 empty empty empty 20 12 0 14 #3ac668 #111111 0;
 #N canvas 0 0 450 250 (subpatch) 0;
-#X array \$0-array 7263 float 2;
-#X coords 0 1 7263 -1 193 168 1;
+#X array \$0-array 6507 float 2;
+#X coords 0 1 6507 -1 193 168 1;
 #X restore 17 132 graph;
 #X obj 20 308 hsl 187 22 0 1 0 0 \$0-start-offset \$0-playhead empty -2 -8 0 10 #333333 #eeeeee #111111 0 1;
 #X symbolatom 17 104 19 0 0 0 - \$0-filename-display - 16;
@@ -305,4 +305,4 @@
 #X connect 107 0 71 1 32.................TA...Du+++OU....w6+++eH....;
 #X connect 107 0 69 1 32.................iA...vL...vX....LC...DH....;
 #X connect 114 0 96 0 32.................U....vz+++eE....L8+++qB....;
-#X coords 0 0 1 1 228 627 1 -2 0;
+#X coords 0 0 1 1 227 626 1 -2 0;
