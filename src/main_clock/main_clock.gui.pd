@@ -8,7 +8,7 @@
 #X obj 374 493 outlet;
 #X msg 249 299 \$1 BPM;
 #X obj 249 348 s \$0-bpm-display;
-#X obj 176 59 bng 30 150 50 0 empty \$0-quarter-note-bng empty 0 -10 0 10 #333333 #ee0000 #111111;
+#X obj 176 59 bng 30 100 50 0 empty \$0-quarter-note-bng empty 0 -10 0 10 #333333 #ee0000 #111111;
 #X obj 420 445 s \$0-quarter-note-bng;
 #X obj 172 120 vradio 39 1 0 2 \$0-is-external empty empty 0 -8 0 10 #333333 #eeeeee #111111 0;
 #X obj 121 132 cnv 15 47 22 empty empty Int. 15 7 0 25 #d0d3cd #111111 0;
