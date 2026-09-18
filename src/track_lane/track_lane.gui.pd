@@ -1,4 +1,5 @@
 #N canvas 827 239 734 565 12;
+#X declare -path ../sampler;
 #X obj 0 0 cnv 15 233 1103 empty empty empty 20 12 0 14 #191919 #191919 0;
 #X obj 3 4 cnv 15 227 1096 empty empty empty 20 12 0 14 #d0d3cd #111111 0;
 #X obj 119 883 cnv 15 96 202 empty empty empty 20 12 0 14 #191919 #191919 0;
@@ -71,4 +72,6 @@
 #X obj 126 873 cnv 15 82 24 empty empty ACCENTS 1 12 0 20 #d0d3cd #111111 0;
 #X obj 556 363 outlet~;
 #X obj 636 363 outlet~;
+#X obj 425 81 declare -path ../sampler;
+#X obj 898 126 sampler.gui~;
 #X coords 0 0 1 1 235 1105 1 -1 -1;
