@@ -9,8 +9,8 @@
 #X obj 3 4 sampler.gui~;
 #X obj 271 57 declare -path ../sequencer;
 #X obj 3 630 sequencer.gui;
-#X obj 271 163 inlet;
-#X text 271 123 bng: clock tick at 22ppqn \; reset: reset the sequencer;
+#X obj 519 166 inlet;
+#X text 519 126 bng: clock tick at 22ppqn \; reset: reset the sequencer;
 #X obj 442 1081 outlet;
 #X obj 554 1081 outlet;
 #X obj 677 1081 outlet;
@@ -22,6 +22,8 @@
 #X text 506 1101 float: velocity (0.0-1.0);
 #X text 660 1101 bng: accent;
 #X obj 3 1063 cnv 15 227 37 empty empty empty 104 16 0 30 #696969 #e1e1e1 0;
+#X obj 351 166 inlet;
+#X text 284 126 float: 1 to start advancing the sequencer \, 0 to stop it, f 26;
 #X connect 5 0 2 0 32.................I....vP...PB....LD...Lb....;
 #X connect 5 1 3 0 32.................S....DI...vD....QB...3e....;
 #X connect 7 0 10 0 32.................I....ba...PB....2F...DA....;
@@ -29,5 +31,6 @@
 #X connect 7 1 11 0 32.................I....Te...PB....0G...DA....;
 #X connect 7 2 12 0 32.................I....zi...PB....8H...DA....;
 #X connect 7 3 13 0 32.................F....fk...fA....XI...DA....;
-#X connect 8 0 7 0 32.................1F...Tu+++usA...06+++Cb....;
+#X connect 8 0 7 1 32.................4F...3s+++etA...d6+++2a....;
+#X connect 21 0 7 0 32.................wF...rq+++erA...65+++2a....;
 #X coords 0 0 1 1 235 1105 1 -1 -1;

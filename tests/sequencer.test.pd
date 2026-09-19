@@ -1,8 +1,8 @@
 #N canvas 827 239 734 565 12;
 #X declare -path ../src/sequencer;
-#X text 37 61 Clock Rate (BPM);
-#X floatatom 89 155 8 0 0 0 - - - 12;
-#X obj 52 83 knob 50 30 240 0 120 empty empty #333333 #696969 #EEEEEE 1 0 211 1 1 270 0 0 30 empty empty 0 12 6 -15 0 1 0 0;
+#X text 240 52 Clock Rate (BPM);
+#X floatatom 292 146 8 0 0 0 - - - 12;
+#X obj 255 74 knob 50 30 240 0 120 empty empty #333333 #696969 #EEEEEE 1 0 211 1 1 270 0 0 30 empty empty 0 12 6 -15 0 1 0 0;
 #X obj 52 697 bng 25 250 50 0 empty empty empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1;
 #X obj 265 697 bng 25 250 50 0 empty empty empty 0 -10 0 10 #191919 #e1e1e1 #e1e1e1;
 #X floatatom 102 704 5 0 0 0 - - - 12;
@@ -15,7 +15,10 @@
 #X text 321 726 step number;
 #X obj 52 33 declare -path ../src/sequencer;
 #X obj 52 241 sequencer.gui masterclock;
-#X obj 52 203 midi.clock;
+#X obj 255 183 midi.clock;
+#X obj 52 74 tgl 50 0 empty empty empty 0 -10 0 10 #333333 #eeeeee #111111 0 1;
+#X obj 323 241 bangdiv 24;
+#X obj 323 290 bng 25 100 50 0 empty empty empty 0 -10 0 10 #333333 #eeeeee #111111;
 #X connect 2 0 1 0 32.................K....TB...vB....k....XA....;
 #X connect 2 0 15 0;
 #X connect 14 0 3 0;
@@ -23,4 +26,7 @@
 #X connect 14 2 7 0 32.................i....XB...vH....l....LC....;
 #X connect 14 3 4 0 32.................c....zC...PG....8....LC....;
 #X connect 14 4 6 0 32.................M....XE...PC....VA...XC....;
-#X connect 15 0 14 0;
+#X connect 15 0 14 1 32.................P..........D.........bB....;
+#X connect 15 0 17 0;
+#X connect 16 0 14 0;
+#X connect 17 0 18 0;
