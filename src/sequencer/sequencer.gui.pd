@@ -23,7 +23,7 @@
 #X obj 933 852 expr $f3 * (1 - $f1 * $f2), f 35;
 #X obj 1282 541 r \$0-accent-hits;
 #X obj 843 541 r \$0-accent-intensity;
-#X floatatom 574 932 4 0 0 3 ACCENT\ STEP\ N - - 24;
+#X floatatom 559 932 4 0 0 3 ACCENT\ STEP\ N - - 24;
 #X text 997 889 ^^^ velocity = \$0-jitter-ceiling x (1 - random(0 \, 1) * $jitter-level, f 28;
 #X obj 325 967 s \$0-hit-bng;
 #X msg 670 206 reset;
@@ -85,7 +85,7 @@
 #X obj 121 344 cnv 15 89 255 empty empty empty 20 12 0 14 #d0d3cd #111111 0;
 #X obj 148 330 cnv 15 39 24 empty empty PAN 1 12 0 20 #d0d3cd #111111 0;
 #X obj 138 576 cnv 15 59 23 empty empty HIT\ SIDE 0 12 0 14 #d0d3cd #111111 0;
-#X obj 135 546 hradio 31 1 1 2 \$0-pan-hit-side empty L\ \ \ \ \ \ R 11 -8 0 14 #333333 #eeeeee #111111 1;
+#X obj 135 546 hradio 31 1 1 2 \$0-pan-hit-side empty L\ \ \ \ \ \ R 11 -8 0 14 #333333 #eeeeee #111111 0;
 #X obj 142 460 knob 48 0 1 0 0 \$0-pan-spread empty #333333 #696969 #eeeeee 0 0 0 0 0 270 0 0 0 empty empty 0 12 6 -15 0 1 0 0;
 #X obj 142 507 cnv 15 48 15 empty empty SPREAD 0 12 0 14 #d0d3cd #111111 0;
 #X obj 152 436 cnv 15 27 15 empty empty HITS 0 12 0 14 #d0d3cd #111111 0;
