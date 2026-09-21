@@ -109,6 +109,7 @@
 #X floatatom 933 1031 9 0 0 3 VELOCITY - - 24;
 #X floatatom 1470 1031 9 0 0 3 PAN - - 24;
 #X obj 1853 546 r \$0-pan-hit-side;
+#X floatatom 1689 1031 4 0 0 3 PAN\ STEP\ N - - 24;
 #X connect 6 0 35 0;
 #X connect 6 0 37 1 32.................Z....H7+++uF....B++++GK....;
 #X connect 7 0 35 1;
@@ -162,6 +163,7 @@
 #X connect 78 0 37 0;
 #X connect 80 0 99 0;
 #X connect 80 1 100 0 32.................g....jA...PH....Y....HD....;
+#X connect 80 2 109 0 32.................c....PI...PG....TB....M....;
 #X connect 92 0 98 1 32.................mE...Hw++++YA...R7+++eX....;
 #X connect 93 0 94 1;
 #X connect 94 0 80 2;
