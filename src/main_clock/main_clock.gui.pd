@@ -24,7 +24,7 @@
 #X obj 22 131 knob 79 60 360 0 120 \$0-rate \$0-rate-set #333333 #696969 #eeeeee 0 0 301 1 0 270 0 0 60 empty empty 0 12 6 -15 0 1 0 0;
 #X obj 396 111 route sync daw;
 #X obj 571 111 r \$0-rate;
-#N canvas 0 50 450 300 init-savestate 1;
+#N canvas 0 50 450 300 init-savestate 0;
 #X obj 193 79 loadbang;
 #X obj 282 254 list;
 #X obj 282 79 savestate;
