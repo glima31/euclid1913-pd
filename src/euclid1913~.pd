@@ -4,6 +4,7 @@
 #X declare -path main_clock;
 #X obj 0 0 cnv 15 2007 1425 empty empty empty 95 117 0 80 #d0d3cd #111111 0;
 #X obj 649 1143 mixer.gui;
+#A saved 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0;
 #X obj 649 1531 outlet~;
 #X obj 706 1531 outlet~;
 #X obj 763 1531 outlet~;
@@ -67,6 +68,7 @@
 #X obj 466 -158 r \$0-run-seqs;
 #X obj 413 1493 s \$0-run-seqs;
 #X obj 413 1143 main_clock.gui \$0-clk;
+#A saved 120 0;
 #X obj 764 24 track_lane.gui \$0-clk;
 #X obj 24 24 track_lane.gui \$0-clk;
 #X obj 270 24 track_lane.gui \$0-clk;
