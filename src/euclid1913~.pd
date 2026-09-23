@@ -102,7 +102,7 @@
 #X obj 2352 788 s \$0-set-daw;
 #X obj 413 1143 main_clock.gui \$0-clk;
 #X obj 235 1518 r \$0-savestate;
-#N canvas 0 50 450 300 state 1;
+#N canvas 0 50 450 300 state 0;
 #X obj 175 134 savestate;
 #X msg 218 378 line 0 \, bang;
 #X obj 218 412 text sequence \$0-state;
