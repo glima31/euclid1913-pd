@@ -9,7 +9,8 @@
 #X obj 1322 1466 dac~ 15 16;
 #X obj 1511 1466 dac~ 17 18;
 #X obj -1 -1 euclid1913~;
-#A saved clock 336 0;
+#A saved clock 298 0;
+#A saved mixer 1 0 0 1 1 0 0 1 1 1 0 1 0 1 1 0 1;
 #X obj 1700 1475 bng 62 250 50 0 empty empty empty 0 -10 0 10 #333333 #eeeeee #111111;
 #X obj 1889 1475 bng 62 250 50 0 empty empty empty 0 -10 0 10 #333333 #eeeeee #111111;
 #X obj 1984 1475 bng 62 250 50 0 empty empty empty 0 -10 0 10 #333333 #eeeeee #111111;
