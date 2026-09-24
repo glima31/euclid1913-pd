@@ -2,8 +2,8 @@
 #X obj -1 0 cnv 15 227 454 empty empty empty 20 12 0 14 #d0d3cd #111111 0;
 #X obj 17 113 cnv 15 192 98 empty empty empty 20 12 0 14 #3ac668 #111111 0;
 #N canvas 0 0 450 250 (subpatch) 0;
-#X array \$0-array 81089 float 2;
-#X coords 0 1 81089 -1 193 98 1;
+#X array \$0-array 63394 float 2;
+#X coords 0 1 63394 -1 193 98 1;
 #X restore 17 113 graph;
 #X obj 20 211 hsl 187 22 0 1 0 0 \$0-start-offset \$0-playhead empty -2 -8 0 10 #333333 #eeeeee #111111 0 1;
 #X symbolatom 17 92 19 0 0 0 - \$0-filename-set \$0-filename 16;
@@ -237,12 +237,12 @@
 #X obj 43 108 t b b b;
 #X obj 335 155 symbol none;
 #X obj 140 312 default;
-#X msg 982 303 none;
 #X text 962 569 <--- prepend the track number;
 #X text 298 288 the sample file path is the first value. if no file is loaded into the sampler \, we use the "none" symbol, f 22;
 #X text 298 401 NOTE: we must dispatch \$0-file-path-set before \$0-playhead \, otherwise the playhead will always load back to 0 (because when a new file path is set and the file is loaded \, the playhead is reset), f 23;
 #X text 693 431 <--- prepend the file path symbol (or 'none' if no file is loaded), f 16;
-#X connect 0 0 23 0;
+#X msg 982 303 none;
+#X connect 0 0 27 0;
 #X connect 1 0 0 0;
 #X connect 2 0 17 1 32.................k....zq+++eI....85+++mC....;
 #X connect 4 0 5 0;
@@ -258,7 +258,7 @@
 #X connect 13 0 11 1 32.................c....nH...PG....JB...bU....;
 #X connect 14 0 15 0;
 #X connect 14 1 4 0 32.................z....rK....M....6B...DG....;
-#X connect 14 2 23 0 32.................TA...fU....U....XE...DG....;
+#X connect 14 2 27 0 32.................TA...fU....U....XE...DG....;
 #X connect 14 3 13 0 32.................H....7H....B....OB...HA....;
 #X connect 15 0 17 0;
 #X connect 17 0 10 0;
@@ -269,7 +269,7 @@
 #X connect 20 2 21 0 32.................N....bP...fC....GD...vA....;
 #X connect 21 0 19 1;
 #X connect 22 0 16 0;
-#X connect 23 0 2 0;
+#X connect 27 0 2 0;
 #X restore 270 22 pd state;
 #X obj 501 256 unpack f f;
 #X msg 272 205 1;
