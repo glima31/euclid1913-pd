@@ -23,7 +23,7 @@
 #X text 804 -218 DON'T FORGET TO CHANGE THE MASTER CLOCK ID ACCORDING TO WHATEVER IS DISPLAYED IN THE MAIN CLOCK SECTION (ABOVE THE CLOCK RATE DISPLAY), f 43;
 #X obj -1 5 euclid1913~;
 #A saved clock 120 0;
-#A saved mixer 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0 0 1 0 0 0 0 0;
+#A saved mixer 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0 0 0 0 0 0 0 0;
 #A saved 7 sequencer 2 15 0.44 0 0.48 0.6652 0.42 1 0 0 0;
 #A saved 7 sampler none 0.95 0 0 0 0 0;
 #A saved 8 sequencer 0 10 0.624 0 0 1 0.564 1 0 0 0;
