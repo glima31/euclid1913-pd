@@ -1,6 +1,4 @@
 #N canvas 827 239 734 565 12;
-#X obj 149 149 euclid1913~.new;
-#A saved clock 224 0;
 #X obj 954 44 knob 50 60 360 0 60 empty empty #333333 #696969 #EEEEEE 1 0 301 1 1 270 0 0 60 empty empty 0 12 6 -15 0 1 0 0;
 #X obj 149 44 tgl 50 0 empty empty empty 0 -10 0 10 #333333 #eeeeee #111111 0 1;
 #X msg 319 75 mute 7;
@@ -14,11 +12,13 @@
 #X obj 1049 227 clock -s 1897-clk;
 #X msg 416 38 sync;
 #X msg 484 38 ext;
-#X connect 1 0 0 1;
-#X connect 2 0 0 0;
-#X connect 3 0 0 0 32.................b....b0+++OG....W8+++eC....;
-#X connect 4 0 0 0 32.................b....f5+++OG....n9+++eC....;
-#X connect 10 0 11 0;
-#X connect 11 0 5 0;
-#X connect 12 0 0 0 48.................BA...Hx+++uP....h7+++KD...f89+++BA...Xu+++OW....;
-#X connect 13 0 0 0 48..................A...j0+++OP....Y8+++GD...fr9+++AA...Hq+++OW....;
+#X obj 149 149 euclid1913~;
+#A saved clock 120 0;
+#X connect 0 0 13 1;
+#X connect 1 0 13 0;
+#X connect 2 0 13 0 32.................b....b0+++OG....W8+++eC....;
+#X connect 3 0 13 0 32.................b....f5+++OG....n9+++eC....;
+#X connect 9 0 10 0;
+#X connect 10 0 4 0;
+#X connect 11 0 13 0 48.................BA...Hx+++uP....h7+++KD...f89+++BA...Xu+++OW....;
+#X connect 12 0 13 0 48..................A...j0+++OP....Y8+++GD...fr9+++AA...Hq+++OW....;
