@@ -29,7 +29,7 @@
 #X obj 541 313 s \$0-savestate;
 #X obj 444 199 route sync daw savestate loadstate;
 #X obj 589 270 s \$0-loadstate;
-#N canvas 0 50 450 300 state 1;
+#N canvas 0 50 450 300 state 0;
 #X obj 53 214 var \$0-rate \$0-is-daw;
 #X obj 53 375 text insert;
 #X obj 53 272 list prepend clock;
@@ -58,8 +58,8 @@
 #X text 444 23 float: 1 to start the clock \, 0 to stop it \; \; Methods: \; sync: restart the clock (used to sync properly to thw DW) \; daw: set the clock to DAW mode (rate knob is ignored) \; savestate <symbol>: insert the current state into a [text ] buffer \; loadstate <float \, float>: load the state back from a rate and is_daw pair, f 62;
 #X connect 4 0 11 1;
 #X connect 5 0 6 0;
-#X connect 11 0 16 1 32.................3A...fd+++Od....n2+++eI....;
 #X connect 11 0 5 0 32.................x....b0+++uL....W8+++aI....;
+#X connect 11 0 16 1 32.................3A...fd+++Od....n2+++eI....;
 #X connect 12 0 28 0;
 #X connect 15 0 16 0 32.................n....Lv+++OJ....C7+++KG....;
 #X connect 15 1 14 0;
