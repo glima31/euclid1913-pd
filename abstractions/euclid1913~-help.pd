@@ -13,8 +13,9 @@
 #X msg 416 38 sync;
 #X msg 484 38 ext;
 #X obj 149 149 euclid1913~;
-#A saved main_level 1;
-#A saved clock 198 0;
+#A saved selected_track 4;
+#A saved main_level 0.12;
+#A saved clock 316 1;
 #X connect 0 0 13 1;
 #X connect 1 0 13 0;
 #X connect 2 0 13 0 32.................b....b0+++OG....W8+++eC....;
