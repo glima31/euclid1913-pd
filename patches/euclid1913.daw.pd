@@ -81,7 +81,7 @@
 #X obj 756 522 dac~ 17 18;
 #X obj 913 62 declare -path ../abstractions;
 #X obj -1 -1 euclid1913~;
-#A saved selected_track 3;
+#A saved selected_track 1;
 #A saved main_level 0.5;
 #A saved clock 120 0;
 #X connect 0 0 17 0 32.................N....zm+++uC....84+++yB....;
