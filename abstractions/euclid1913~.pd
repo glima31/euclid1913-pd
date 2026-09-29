@@ -507,7 +507,7 @@
 #X obj 1015 337 r \$0-run;
 #X obj 863 337 route float mute;
 #X text 863 133 float: 1 to start the sequencers \, 0 to stop \; mute <f>: mute/unmute track # \; sync: resync the clock (used to properly sync with a DAW's grid) \; ext: set the clock to external mode;
-#N canvas 0 50 450 300 state 0;
+#N canvas 0 50 450 300 state 1;
 #X obj 96 388 list prepend clock;
 #X obj 53 187 savestate;
 #X obj 96 299 var \$0-clock-rate \$0-clock-is-ext, f 15;
