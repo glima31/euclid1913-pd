@@ -78,7 +78,7 @@
 #X obj 612 331 s \$0-pan-side;
 #X obj 1734 596 r \$0-pan-side;
 #X obj 1190 539 r \$0-accent-shift;
-#X obj 119 102 route reset step_rate steps hits shift jitter_level jitter_ceil accent_hits accent_intensity accent_shift pan_hits pan_spread pan_side;
+#X obj 119 102 route reset step_rate steps hits shift jitter_level jitter_ceil accent_hits accent_intensity accent_shift pan_hits pan_spread pan_side float;
 #X connect 6 0 57 0;
 #X connect 6 0 58 1 32.................Z....H9+++uF....h++++GK....;
 #X connect 7 0 57 1;
