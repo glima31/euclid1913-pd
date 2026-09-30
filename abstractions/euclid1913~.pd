@@ -25,7 +25,7 @@
 #X obj 696 208 cnv 15 85 129 empty empty empty 20 12 0 14 #d0d3cd #e1e1e1 0;
 #X listbox 25 123 7 0 0 0 - \$0-bpm-display - 16;
 #X obj 44 208 cnv 15 34 11 empty empty RATE 2 6 0 11 #d0d3cd #111111 0;
-#X obj 165 97 bng 20 100 50 0 empty \$0-clock-bng empty 0 -10 0 10 #191919 #ee0000 #111111;
+#X obj 165 97 bng 20 100 50 0 empty \$0-clock-bng empty 0 -10 0 10 #191919 #ff0000 #111111;
 #X obj 142 166 vradio 24 1 0 2 \$0-clock-is-ext \$0-clock-is-ext-set empty 0 -8 0 10 #4a4a4a #eeeeee #111111 0;
 #X obj 104 172 cnv 15 24 8 empty empty INT. 15 7 0 11 #d0d3cd #111111 0;
 #X symbolatom 104 123 7 0 0 0 - \$0-clock-id - 16;
@@ -560,7 +560,7 @@
 #X connect 14 3 20 0 32.................K....vi...vB....7H...XC....;
 #X connect 16 0 1 0;
 #X restore 863 59 pd state;
-#N canvas 0 50 450 300 mixer 0;
+#N canvas 0 50 450 300 mixer 1;
 #X obj 19 929 outlet~;
 #X obj 93 929 outlet~;
 #X obj 207 931 outlet~;
