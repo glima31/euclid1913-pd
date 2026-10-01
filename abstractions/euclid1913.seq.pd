@@ -94,6 +94,7 @@
 #X obj 827 1279 r \$0-steps;
 #X obj 913 1279 r \$0-hits-computed;
 #X obj 1064 1279 r \$0-shift-computed;
+#X text 1026 1515 list <f \, f \, f \, f \, f \, f>: steps \, hits \, shift \, accent_hits \, accent_shift \, pan_hits;
 #X connect 6 0 57 0;
 #X connect 6 0 58 1 32.................Z....H9+++uF....h++++GK....;
 #X connect 7 0 57 1;

@@ -42,7 +42,7 @@
 #X msg 867 166 1;
 #X text 790 141 L;
 #X text 867 141 R;
-#X obj 488 288 knob 41 0 1 0 0 empty empty #191919 #696969 #E1E1E1 1 0 0 0 1 270 0 0 1 empty empty 1 12 6 -15 0 1 0 0;
+#X obj 488 288 knob 41 0 1 0 0 empty empty #191919 #696969 #E1E1E1 1 0 0 0 1 270 0 0 0 empty empty 1 12 6 -15 0 1 0 0;
 #X obj 631 288 knob 41 0 1 0 1 empty empty #191919 #696969 #E1E1E1 1 0 0 0 1 270 0 0 0 empty empty 1 12 6 -15 0 1 0 0;
 #X obj 790 288 knob 41 0 1 0 0 empty empty #191919 #696969 #E1E1E1 1 0 0 0 1 270 0 0 0 empty empty 1 12 6 -15 0 1 0 0;
 #X obj 47 53 hradio 16 1 1 4 \$0-step-resolution \$0-step-resolution-set 1/16\ \ 1/8\ \ 1/4\ \ 1/2 0 -6 0 8 #333333 #eeeeee #ff002a 2;
@@ -50,7 +50,8 @@
 #X msg 488 340 accent_hits \$1;
 #X msg 631 340 accent_intensity \$1;
 #X msg 790 340 accent_shift \$1;
-#X listbox 798 507 14 0 0 0 - - - 24;
+#X listbox 845 507 17 0 0 0 - - - 24;
+#X text 790 548 steps \, hits \, shift \, accent_hits \, accent_shift \, pan_hits;
 #X connect 2 0 16 1;
 #X connect 2 0 1 0 32.................S....f7++++D....H++++qB....;
 #X connect 13 0 15 0;
@@ -62,7 +63,7 @@
 #X connect 18 2 7 0 32.................S....PH...vD....DB....D....;
 #X connect 18 3 4 0 32.................h....HK...fH....xB....D....;
 #X connect 18 4 6 0 32.................S....bN...vD....mC...nD....;
-#X connect 18 5 50 0 32.................E....TT...PA....EE...nD....;
+#X connect 18 5 50 0 32.................E....PW...PA....zE...nD....;
 #X connect 19 0 18 0 32.................P....TR....D....kD...zS....;
 #X connect 20 0 18 0 32.................J....TR...fB....kD...fK....;
 #X connect 21 0 18 0 32.................S....PM...vD....TC...fK....;
