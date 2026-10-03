@@ -71,14 +71,14 @@
 #X obj -1 -195 stripnote;
 #X text 78 -255 MIDI input \; \; F: mute track 1 \; F#: mute track 2 \; G: mute track 3 \; ... \; C: mute track 8 \;;
 #X obj -1 524 dac~ 1 2;
-#X obj 93 524 dac~ 3 4;
-#X obj 188 522 dac~ 5 6;
-#X obj 283 522 dac~ 7 8;
-#X obj 377 522 dac~ 9 10;
-#X obj 472 522 dac~ 11 12;
-#X obj 567 522 dac~ 13 14;
-#X obj 661 522 dac~ 15 16;
-#X obj 756 522 dac~ 17 18;
+#X obj 71 524 dac~ 3 4;
+#X obj 146 524 dac~ 5 6;
+#X obj 222 524 dac~ 7 8;
+#X obj 296 524 dac~ 9 10;
+#X obj 376 524 dac~ 11 12;
+#X obj 459 524 dac~ 13 14;
+#X obj 544 524 dac~ 15 16;
+#X obj 630 524 dac~ 17 18;
 #X obj 913 62 declare -path ../abstractions;
 #X obj -1 -2 euclid1913~;
 #A saved 1 level 0.5;
@@ -104,6 +104,8 @@
 #A saved 1 vel_start 0;
 #A saved 1 vel_attack 0;
 #A saved 1 vel_length 0;
+#A saved 1 sequencer 0 32 0.312 0 0 1 0 1 0 0 0;
+#A saved 1 sampler D:/Audio\ Samples/Drum\ Machines/808/05\ Kick\ 1.wav 0.95 0 0 0 0 0;
 #A saved 2 level 0.5;
 #A saved 2 mute 0;
 #A saved 2 step_rate 2;
@@ -125,6 +127,8 @@
 #A saved 2 vel_start 0;
 #A saved 2 vel_attack 0;
 #A saved 2 vel_length 0;
+#A saved 2 sequencer 1 32 0.264 0 0 1 0 1 0 0 0;
+#A saved 2 sampler D:/Audio\ Samples/Drum\ Machines/808/11\ Snare\ 1.wav 0.95 0 0 0 0 0;
 #A saved 3 level 0.5;
 #A saved 3 mute 0;
 #A saved 3 step_rate 2;
@@ -146,6 +150,8 @@
 #A saved 3 vel_start 0;
 #A saved 3 vel_attack 0;
 #A saved 3 vel_length 0;
+#A saved 3 sequencer 0 32 0.924 0 0.104 0.7012 0.472 1 0.288 0.372 0;
+#A saved 3 sampler D:/Audio\ Samples/Drum\ Machines/808/32\ HH\ Closed.wav 0.95 0 0 0 0 0;
 #A saved 4 level 0.5;
 #A saved 4 mute 0;
 #A saved 4 step_rate 2;
@@ -168,6 +174,8 @@
 #A saved 4 vel_start 0;
 #A saved 4 vel_attack 0;
 #A saved 4 vel_length 0;
+#A saved 4 sequencer 1 22 0.7 0 0 1 0 1 0 0 1;
+#A saved 4 sampler D:/Audio\ Samples/Drum\ Machines/808/33\ HH\ Combo.wav 0.95 0 0 0 0 0;
 #A saved 5 level 0.5;
 #A saved 5 mute 0;
 #A saved 5 step_rate 2;
@@ -190,6 +198,8 @@
 #A saved 5 vel_start 0;
 #A saved 5 vel_attack 0;
 #A saved 5 vel_length 0;
+#A saved 5 sequencer 0 32 0.604 0 0 1 0 1 0 0 0;
+#A saved 5 sampler D:/Audio\ Samples/Drum\ Machines/Kawai\ R50e/11\ R-50E\ #013.wav 0.95 0 0 0 0 0;
 #A saved 6 level 0.5;
 #A saved 6 mute 0;
 #A saved 6 step_rate 2;
@@ -212,6 +222,8 @@
 #A saved 6 vel_start 0;
 #A saved 6 vel_attack 0;
 #A saved 6 vel_length 0;
+#A saved 6 sequencer 2 1 0 0 0 1 0 1 0 0 0;
+#A saved 6 sampler none 0.95 0 0 0 0 0;
 #A saved 7 level 0.5;
 #A saved 7 mute 0;
 #A saved 7 step_rate 2;
@@ -234,6 +246,8 @@
 #A saved 7 vel_start 0;
 #A saved 7 vel_attack 0;
 #A saved 7 vel_length 0;
+#A saved 7 sequencer 0 32 0.808 0 0 1 0 1 0 0 0;
+#A saved 7 sampler none 0.95 0 0 0 0 0;
 #A saved 8 level 0.5;
 #A saved 8 mute 0;
 #A saved 8 step_rate 2;
@@ -255,6 +269,8 @@
 #A saved 8 vel_start 0;
 #A saved 8 vel_attack 0;
 #A saved 8 vel_length 0;
+#A saved 8 sequencer 0 32 0.276 0 0 1 0 1 0 0 0;
+#A saved 8 sampler none 0.95 0 0 0 0 0;
 #A saved selected_track 1;
 #A saved main_level 0.5;
 #A saved clock 120 0;
