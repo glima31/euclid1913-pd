@@ -45,7 +45,7 @@
 #X obj 488 288 knob 41 0 1 0 0 empty empty #191919 #696969 #E1E1E1 1 0 0 0 1 270 0 0 0 empty empty 1 12 6 -15 0 1 0 0;
 #X obj 631 288 knob 41 0 1 0 1 empty empty #191919 #696969 #E1E1E1 1 0 0 0 1 270 0 0 0 empty empty 1 12 6 -15 0 1 0 0;
 #X obj 790 288 knob 41 0 1 0 0 empty empty #191919 #696969 #E1E1E1 1 0 0 0 1 270 0 0 0 empty empty 1 12 6 -15 0 1 0 0;
-#X obj 47 53 hradio 16 1 1 4 \$0-step-resolution \$0-step-resolution-set 1/16\ \ 1/8\ \ 1/4\ \ 1/2 0 -6 0 8 #333333 #eeeeee #ff002a 0;
+#X obj 47 53 hradio 16 1 1 4 \$0-step-resolution \$0-step-resolution-set 1/16\ \ 1/8\ \ 1/4\ \ 1/2 0 -6 0 8 #333333 #eeeeee #ff002a 2;
 #X msg 45 340 jitter_level \$1;
 #X msg 488 340 accent_hits \$1;
 #X msg 631 340 accent_intensity \$1;
