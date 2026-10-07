@@ -11,7 +11,7 @@
 #X obj 33 67 inlet;
 #X obj 33 22 declare -path utils;
 #X obj 788 748 outlet;
-#N canvas 0 50 450 300 base-pattern 1;
+#N canvas 0 50 450 300 base-pattern 0;
 #X obj 162 118 r \$0-steps;
 #X obj 331 118 r \$0-hits;
 #X obj 473 118 r \$0-shift;
@@ -45,7 +45,7 @@
 #X connect 11 1 4 0 32.................FA...7F...fQ....uA...TE....;
 #X connect 11 2 12 0 32.................T..........E.........nA....;
 #X restore 33 356 pd base-pattern;
-#N canvas 0 50 450 300 panner 1;
+#N canvas 0 50 450 300 panner 0;
 #X obj 33 194 inlet;
 #X obj 33 786 outlet;
 #X obj 386 279 r \$0-pan-spread;
@@ -97,7 +97,7 @@
 #X restore 244 584 pd panner;
 #X obj 376 170 r \$0-reset;
 #X obj 33 170 r \$0-start-stop;
-#N canvas 0 50 450 300 clock 1;
+#N canvas 0 50 450 300 clock 0;
 #X msg 162 171 4;
 #X msg 199 171 2;
 #X msg 234 171 1;
@@ -122,7 +122,7 @@
 #X connect 6 0 4 0;
 #X connect 7 0 5 0;
 #X restore 33 266 pd clock;
-#N canvas 0 50 450 300 dynamics 1;
+#N canvas 0 50 450 300 dynamics 0;
 #X obj 254 782 / 100;
 #X obj 826 344 r \$0-jitter-level;
 #X obj 947 344 r \$0-jitter-ceiling;
@@ -200,7 +200,7 @@
 #X obj 551 674 r \$0-base-step-n;
 #X obj 81 674 s \$0-velocity;
 #X obj 33 426 t b b b;
-#N canvas 0 50 450 300 input 1;
+#N canvas 0 50 450 300 input 0;
 #X obj 76 462 s \$0-step-rate;
 #X obj 183 506 s \$0-steps;
 #X obj 347 506 s \$0-hits;
@@ -235,7 +235,7 @@
 #X connect 15 0 12 0;
 #X restore 33 112 pd input;
 #X obj 376 674 s \$0-pan;
-#N canvas 0 50 450 300 scaled-params 1;
+#N canvas 0 50 450 300 scaled-params 0;
 #X obj 465 355 outlet;
 #X obj 135 166 t b f;
 #X obj 465 292 pack f f f f f f;
